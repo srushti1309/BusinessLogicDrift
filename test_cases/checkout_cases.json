@@ -1,0 +1,51 @@
+
+[
+  {
+    "test_id": "TC001",
+    "description": "Normal purchase below discount threshold",
+    "quantity": 2,
+    "unit_price": "200.00"
+  },
+  {
+    "test_id": "TC002",
+    "description": "Exactly at discount threshold",
+    "quantity": 2,
+    "unit_price": "500.00"
+  },
+  {
+    "test_id": "TC003",
+    "description": "Purchase above discount threshold",
+    "quantity": 3,
+    "unit_price": "500.00"
+  },
+  {
+    "test_id": "TC004",
+    "description": "Just below discount threshold",
+    "quantity": 1,
+    "unit_price": "999.99"
+  },
+  {
+    "test_id": "TC005",
+    "description": "Zero quantity validation",
+    "quantity": 0,
+    "unit_price": "500.00"
+  },
+  {
+    "test_id": "TC006",
+    "description": "Negative price validation",
+    "quantity": 2,
+    "unit_price": "-100.00"
+  },
+  {
+    "test_id": "TC007",
+    "description": "Zero-price valid purchase",
+    "quantity": 1,
+    "unit_price": "0.00"
+  },
+  {
+    "test_id": "TC008",
+    "description": "Fractional price and rounding",
+    "quantity": 3,
+    "unit_price": "333.335"
+  }
+]
